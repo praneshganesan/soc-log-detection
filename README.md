@@ -70,8 +70,8 @@ soc-log-detection/
 Detects repeated failed authentication attempts from the same source IP.
 
 Example:
-Source IP: 192.168.1.55  
-Failed Attempts: 6  
+Source IP: 192.168.1.55
+Failed Attempts: 6
 Severity: HIGH
 
 ### 2. Invalid User Enumeration
@@ -86,16 +86,16 @@ Usernames:
 - oracle
 - postgres
 - test
-Unique Usernames: 6  
+Unique Usernames: 6
 Severity: MEDIUM
 
 ### 3. Successful Login After Failures
 Detects a successful authentication event following multiple failed login attempts.
 
 Example:
-Source IP: 192.168.1.55  
-Username: pranesh  
-Failed Attempts: 6  
+Source IP: 192.168.1.55
+Username: pranesh
+Failed Attempts: 6
 Severity: CRITICAL
 
 This detection identifies a suspicious authentication sequence that may require further investigation.
@@ -124,9 +124,10 @@ Severity: HIGH
  'source_ip': '172.16.20.44',
  'failed_attempts': 5,
  'severity': 'HIGH'}
+```
 
 ### Invalid User Enumeration
-
+```
 === INVALID USER ENUMERATION ALERTS ===
 
 {'alert_type': 'INVALID_USER_ENUMERATION',
@@ -135,9 +136,10 @@ Severity: HIGH
  'usernames': ['admin', 'administrator', 'guest',
                'oracle', 'postgres', 'test'],
  'severity': 'MEDIUM'}
+```
 
 ### Successful Login After Failures
-
+```
 === SUCCESS AFTER FAILURES ALERTS ===
 
 {'alert_type': 'SUCCESS_AFTER_FAILURES',
@@ -145,9 +147,10 @@ Severity: HIGH
  'username': 'pranesh',
  'failed_attempts': 6,
  'severity': 'CRITICAL'}
+```
 
 ### Privileged Account Targeting
-
+```
 === PRIVILEGED ACCOUNT TARGETING ALERTS ===
 
 {'alert_type': 'PRIVILEGED_ACCOUNT_TARGETING',
