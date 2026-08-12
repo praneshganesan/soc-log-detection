@@ -1,0 +1,21 @@
+Aug 12 09:01:12 server sshd[1012]: Accepted password for pranesh from 192.168.1.20 port 51422 ssh2
+Aug 12 09:04:31 server sshd[1015]: Failed password for pranesh from 192.168.1.55 port 42111 ssh2
+Aug 12 09:04:35 server sshd[1016]: Failed password for pranesh from 192.168.1.55 port 42112 ssh2
+Aug 12 09:04:39 server sshd[1017]: Failed password for pranesh from 192.168.1.55 port 42113 ssh2
+Aug 12 09:04:43 server sshd[1018]: Failed password for pranesh from 192.168.1.55 port 42114 ssh2
+Aug 12 09:04:47 server sshd[1019]: Failed password for pranesh from 192.168.1.55 port 42115 ssh2
+Aug 12 09:04:51 server sshd[1020]: Failed password for pranesh from 192.168.1.55 port 42116 ssh2
+Aug 12 09:05:03 server sshd[1021]: Accepted password for pranesh from 192.168.1.55 port 42117 ssh2
+Aug 12 10:12:18 server sshd[1030]: Invalid user admin from 10.10.10.25 port 33321
+Aug 12 10:12:21 server sshd[1031]: Invalid user administrator from 10.10.10.25 port 33322
+Aug 12 10:12:24 server sshd[1032]: Invalid user test from 10.10.10.25 port 33323
+Aug 12 10:12:27 server sshd[1033]: Invalid user oracle from 10.10.10.25 port 33324
+Aug 12 10:12:30 server sshd[1034]: Invalid user postgres from 10.10.10.25 port 33325
+Aug 12 10:12:33 server sshd[1035]: Invalid user guest from 10.10.10.25 port 33326
+Aug 12 11:30:10 server sshd[1040]: Accepted password for pranesh from 192.168.1.30 port 51221 ssh2
+Aug 12 12:45:11 server sshd[1041]: Failed password for root from 172.16.20.44 port 44221 ssh2
+Aug 12 12:45:15 server sshd[1042]: Failed password for root from 172.16.20.44 port 44222 ssh2
+Aug 12 12:45:19 server sshd[1043]: Failed password for root from 172.16.20.44 port 44223 ssh2
+Aug 12 12:45:23 server sshd[1044]: Failed password for root from 172.16.20.44 port 44224 ssh2
+Aug 12 12:45:27 server sshd[1045]: Failed password for root from 172.16.20.44 port 44225 ssh2
+
